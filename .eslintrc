@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "env": {
+      "es6": true
+    }
+  },
+  "plugins": ["prettier"],
+  "prettier/prettier": [
+    "error",
+    {
+      "trailingComma": "es6",
+      "tabWidth": 2,
+      "semi": true,
+      "singleQuote": true,
+      "endOfLine": "lf"
+    }
+  ]
+}
